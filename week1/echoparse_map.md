@@ -75,10 +75,10 @@ Frontend (Vercel)
 ↓
 FastAPI Backend (Render/Fly)
 ↓
-┌─────────────┬──────────────────────────────┐
-│ Scrapers │ ──> CSVs ──> Upload to DB │
-│ │ (Google / Apple) │
-└─────────────┴──────────────────────────────┘
+┌─────────────────┬────────────────────────────┐
+│ Scrapers        │ ──> CSVs ──> Upload to DB  │
+│ Google / Apple) │                            │
+└─────────────────┴────────────────────────────┘
 ↓
 Supabase Vector DB
 ↓

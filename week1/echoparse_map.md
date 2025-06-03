@@ -5,6 +5,7 @@ Draw a simple text diagram of: User Request → Backend → APIs → Database �
 
 # Document Tree
 
+```
 root
 ├── echoparse-ui
 │   ├── node_modules
@@ -36,6 +37,7 @@ root
 ├── scraper_apple_refactored.py
 ├── scraper_google_refactored.py
 ├── sql_vector_search.py
+```
 
 # Python File Responsibilities
 

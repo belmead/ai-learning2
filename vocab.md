@@ -20,6 +20,12 @@ The science (and art) of programming computers so they can learn from data. (Ger
 [The] field of study that gives computers the ability to learn without being explicitly programmed. (Arthur Samuel, 1959, via Geron, pg. 5) 
 A computer program is said to learn from experience *E* with respect to some task *T* and some performance measure *P*, if its performance on *T*, as measured by *P*, improves with experience *E.* (Tom Mitchell, 1997, via Gero, pg. 5)
 
+> "In this case, the task *T* is to flag spam for new emails, the experience *E* is the training data, and the performance measure *P* needs to be defined; for example, you can use the ratio of correctly classified emails.
+> Geron, pg. 4
+
+### Model
+The part of a machine learning system that learns and makes predictions. (Geron, pg. 4)
+
 ### Pseudo-AI
 An approach wherein programs start out as AI-powered but switch control over to humans if things get tough. (Shane, pg. 20)
 
@@ -28,6 +34,12 @@ Many text-enerating AIs can only keep track of a few workds at a time. (Shane, p
 
 ### Rules-based learning
 You create a list of commands, or rules, in a language the computer can understand, and the computer does exactly what you say. To solve a problem with a rules-based program, you have to know every step required to complete the program's task and how to describe each one of those steps. (Shane, pg. 9)
+
+### Training Set
+Examples the [machine learning] systems use to learn. (Geron, pg. 4)
+
+### Training Instance (or Training Sample) 
+Each training example [in a training set]. (Geron, pg. 4)
 
 ### Transfer Learning
 [Starting] with an AI that's already partway to it's goal. (Shane, pg. 47)

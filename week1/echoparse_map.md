@@ -68,6 +68,7 @@ root
 
 # Data Flow Overview
 
+```
 User
 ↓
 Frontend (Vercel)
@@ -84,3 +85,4 @@ Supabase Vector DB
 Together LLM (answer synthesis)
 ↓
 Frontend Response
+```

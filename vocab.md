@@ -5,6 +5,9 @@
 ### Convolution
 The idea is similar to the algorithms that look at small-scale features in images first (edges and textures, for example)m, then zoom out to look at the big picture. (Shane, pg. 52)
 
+### Data Mining
+Digging into large amounts of data to discover hidden patterns. (Geron, pg. 7)
+
 ### Deepfakes
 [Allowing] people to swap one person's head and/or body for another, even in video. (Shane, pg. 35)
 

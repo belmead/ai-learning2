@@ -21,6 +21,7 @@ The science (and art) of programming computers so they can learn from data. (Ger
 A computer program is said to learn from experience *E* with respect to some task *T* and some performance measure *P*, if its performance on *T*, as measured by *P*, improves with experience *E.* (Tom Mitchell, 1997, via Gero, pg. 5)
 
 > "In this case, the task *T* is to flag spam for new emails, the experience *E* is the training data, and the performance measure *P* needs to be defined; for example, you can use the ratio of correctly classified emails.
+> 
 > Geron, pg. 4
 
 ### Model

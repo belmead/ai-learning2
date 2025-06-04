@@ -3,7 +3,7 @@ A library is like a toolbox full of ready-made tools (functions) you can grab wh
 
     NumPy: Think of it as a high-speed calculator for large lists of numbers. Instead of handling one number at a time, NumPy lets you bundle thousands of numbers into an “array” and perform math on the whole bundle at once, very efficiently.
 
-    Pandas: Imagine a spreadsheet (rows and columns) in code form. Pandas gives you “DataFrame” objects that look and feel like tables—so you can sort, filter, group, and analyze tabular data (like CSVs) with just a few commands.
+    Pandas: Imagine a spreadsheet (rows and columns) in code form. Pandas gives you “DataFrame” objects that look and feel like tables—so you can sort, filter, group, and analyze tabular data (like CSVs) with just a few commands. Pandas is built of off NumPy.
 
     Matplotlib: This is a simple drawing kit for charts and graphs. When you have numbers (say, from NumPy or Pandas) and want to visualize them, Matplotlib lets you plot bar charts, line graphs, scatter plots, etc., with minimal fuss.
 

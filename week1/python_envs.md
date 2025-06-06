@@ -76,6 +76,39 @@ On any machine, follow these steps:
 ### ❌ Error: `No module named venv`
 **Cause:** Your Python installation doesn’t include the `venv` module.  
 **Fix:**  
-- On Ubuntu/Debian, install it with:
-  ```bash
-  sudo apt install python3-venv
+
+# What is `requirements.txt`?
+
+`requirements.txt` is a plain text file that lists all the Python packages (and their versions) installed in your current environment.
+
+## What is the purpose of `requirements.txt`?
+
+### 1. Reproducibility
+It allows others (or you on another machine) to recreate the exact same environment by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Collaboration
+When you share code (e.g., on GitHub), your teammates or users know exactly what dependencies are needed. This avoids the "it works on my machine" problem.
+
+### 3. Version Pinning
+
+You can pin versions to avoid future breaking changes. Example:
+
+```bash
+numpy==1.26.4
+pandas==2.2.2
+jupyterlab==4.1.8
+```
+
+### 4. Project Best Practice
+
+In any serious Python project, having a `requirements.txt` is standard — it's like a project manifest.
+
+### 5. How It's Created
+
+While you're inside a virtual environment, just run:
+
+`pip freeze > requirements.txt`

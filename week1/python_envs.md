@@ -22,7 +22,7 @@ On any machine, follow these steps:
 
 2. **Create Virtual Environment**
     ```bash
-    python -m venv venv
+    python3 -m venv venv
     ```
 
 3. **Activate Environment**

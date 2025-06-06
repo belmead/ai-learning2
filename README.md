@@ -151,7 +151,7 @@ reviews = [
 
 **Podcast Queue:**
 - Lex Fridman: "Yann LeCun: Deep Learning and the Path to AGI"
-- The AI Podcast: "What is Machine Learning?"
+- AI Education Podcast: "What is Machine Learning?"
 
 **Daily Math (5 min):**
 - Khan Academy: Introduction to vectors

@@ -61,3 +61,21 @@ On any machine, follow these steps:
     source venv/bin/activate
     pip install -r requirements.txt
     ```
+
+# Common Errors and Fixes
+
+### ❌ Error: `python: command not found`
+**Cause:** Python isn't installed or not in your system's PATH.  
+**Fix:**  
+- Make sure Python is installed: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- On macOS/Linux, run `python3` instead.
+- On Windows, ensure "Add Python to PATH" was checked during installation.
+
+---
+
+### ❌ Error: `No module named venv`
+**Cause:** Your Python installation doesn’t include the `venv` module.  
+**Fix:**  
+- On Ubuntu/Debian, install it with:
+  ```bash
+  sudo apt install python3-venv

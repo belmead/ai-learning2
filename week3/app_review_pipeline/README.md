@@ -2,7 +2,7 @@
 
 ## What is inference?
 
-In machine learning, inference is the process of using a trained model to make predictions on new, unseen data. It follows the training phase, where the model learns patterns from historical data. During inference, the model applies this learned knowledge to generate outputs, such as classifications or numerical predictions, based on input features. This step is essential for deploying machine learning models in real-world applications like fraud detection, medical diagnosis, and recommendation systems
+In machine learning, inference is the process of using a trained model to make predictions on new, unseen data. It follows the training phase, where the model learns patterns from historical data. During inference, the model applies this learned knowledge to generate outputs, such as classifications or numerical predictions, based on input features. This step is essential for deploying machine learning models in real-world applications like fraud detection, medical diagnosis, and recommendation systems.
 
 ## What are logits, attention, and tokenization?
 
